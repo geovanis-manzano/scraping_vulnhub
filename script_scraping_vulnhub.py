@@ -28,11 +28,11 @@ for j in maquinas_final:
         break
 
 # color_verde = Fore.GREEN
-# color_amarillo = Fore.YELLOW
+# color_rojo = Fore.RED
 
 if existe_maquina_noob:
-    # print(color_amarillo + "No hay ninguna maquina nueva")
+    # print(color_verde + "No hay ninguna maquina nueva")
     print("No hay ninguna maquina nueva")
 else:
-    # print(color_verde + "Hay al menos una maquina nueva !!!")
+    # print(color_rojo + "Hay al menos una maquina nueva !!!")
     print("Hay al menos una maquina nueva !!!")
